@@ -1,0 +1,43 @@
+<!doctype html>
+<html>
+<head>
+<meta charset="utf-8">
+<title>声明并使用变量</title>
+</head>
+	
+<body>
+	<script>
+		//所有的JavaScript代码都必须包含在script 标签内----内嵌脚本
+		
+		//声明变量的关键字是var
+		//变量名称的要求:
+		//1、必须是字母 下划线 $ 以及数字组成  不能数字开头
+		//2、大小写敏感
+		var userName = "张三";			//声明了一个变量，叫做userName，并且为其赋值 张三 字符串数据类型的
+
+		//为了讲解版本控制的注释内容
+
+		//又增加了一段注释
+		
+		var age;			//声明了变量 age
+		age = 24;			//为age变量赋值 24 数字类型
+		
+		var sex,likeColor;			//声明了多个变量
+		sex = "女";					//为变量sex赋值
+		likeColor = "red";			//为likeColor赋值
+		
+		var uName = "李四",uSex = "男",uAge = 25;			//在一行当中，声明并赋值了多个变量
+		
+		alert(userName);			//alert是一个函数-->弹出一个信息框，信息框的文本由传递的参数决定。
+		//若真的范了这种错误了（字母大小写错误）
+		//可能的情况：
+		//1、浏览器报错----变量名称 未定义
+		//2、得到具体的值 undefind;
+		
+		//在JavaScript编程中，常量的使用很少
+		//声明常量的关键字 const  IE6不支持常量
+		//const pI = 3.14;
+		//pI = 12;
+	</script>
+</body>
+</html>
